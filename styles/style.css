@@ -11,6 +11,7 @@ body {
     font-size: 24px;
 }
 
+/* Section 1/3 */
 #concert-image {
     /*
     width: 100%;    
@@ -28,6 +29,40 @@ body {
 }
 
 
+/* Section 2/3 */
+#second-section {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#second-section > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#second-section img {
+    width: 80px;
+}
+
+#second-section h1 {
+    align-self: center;
+    text-decoration: underline  rgb(0, 170, 95);
+}
+
+.sec-section-item {
+    width: 320px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-section-item > p {
+    width: 220px;
+    align-self: auto;
+}
 
 /* Section 3/3 */
 
@@ -48,7 +83,7 @@ body {
 }
 
 #iphone-screenshot > img {
-    height: 700px;
+    height: 600px;
 }
 
 #app-feature {
